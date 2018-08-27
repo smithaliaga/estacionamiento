@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Maquetacion</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag "/assets/estilo_login.css" %>
+
+    <%= stylesheet_link_tag "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" %>
+    <%= javascript_include_tag "https://code.jquery.com/jquery-3.3.1.min.js" %>
+    <%= javascript_include_tag "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" %>
+    <%= javascript_include_tag "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" %>
+
+    <%= javascript_include_tag "/assets/script_login.js" %>
+  </head>
+
+  <body>
+    <%= render partial:'layouts/menuLogin' %>
+    <%= yield %>
+    <%= render partial:'layouts/footerLogin' %>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+.formulario{
+	box-shadow: 0px 3px 9px rgba(0,0,0,0.5);
+	max-width: 400px;
+	padding: 15px;
+	margin: 60px auto 30px;
+	border-radius: 10px;
+}
+
+.row{
+	margin-bottom: 15px;
+}
+
+.modal-header{
+	background-color: #343A40;
+	color: #ffffff;
+}
+
+.modal-footer button{
+	background-color: #007BFF;
+	color: #ffffff;
+}
+
+.modal-footer button:hover{
+	background-color: #0069D9;
+	color: #ffffff;
+}
+
+.control-label{
+	text-align: right;
+	font-weight: bold;
+}
+
+.label-formulario{
+	font-weight: bold;	
+}
+
+.active a{
+	color: #ffffff !important;
+}
+
+.btn{
+	width: 100% !important;
+}
